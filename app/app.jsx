@@ -7,9 +7,10 @@ var Timer = require('Timer');
 var Countdown = require('Countdown');
 
 // load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
-require('style!css!sass!applicationStyles');
 $(document).foundation();
+
+// App css
+require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>
